@@ -1,1 +1,101 @@
-My link in bio
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .banner-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+      }
+
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+
+      body {
+        background-color: #dddddd;
+      }
+
+      .name {
+        color: black;
+      }
+
+      .social-icons a {
+        color: black;
+        text-decoration: none;
+      }
+
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+        flex-grow: 1;
+      }
+
+      .name {
+        color: black;
+        display: flex;
+        justify-content: center;
+      }
+
+      .banner {
+        display: flex;
+        justify-content: center;
+      }
+
+      .social-icons {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .social-icons a {
+        padding-block: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: 3px solid black;
+      }
+
+      .social-icons a:hover {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="items">
+      <div class="banner">
+        <img src="./Headshot_2.jpeg" alt="Arnav Agarwal headshot" class="banner-image">
+      </div>
+
+      <div class="name">
+        <h2>Arnav Agarwal</h2>
+      </div>
+
+      <div class="social-icons">
+        <a href="https://github.com/arnava03" target="_blank">
+          GitHub
+        </a>
+
+        <a href="https://www.linkedin.com/in/arnav-agarwal-0ba57318b/" target="_blank">
+          LinkedIn
+        </a>
+
+        <a href="https://www.instagram.com/arnava03/" target="_blank">
+          Instagram
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
